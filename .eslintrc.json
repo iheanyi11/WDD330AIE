@@ -1,3 +1,4 @@
+
 {
   "plugins": ["import"],
   "extends": ["eslint:recommended", "plugin:import/errors", "prettier"],
@@ -7,7 +8,7 @@
     "node": true
   },
   "parserOptions": {
-    "ecmaVersion": "latest",
+    "ecmaVersion": 2022,
     "sourceType": "module"
   },
   "rules": {
